@@ -36,10 +36,14 @@ inside a Cowork session.
    box, choose **Connectors**, and toggle **Brain** on for that
    conversation.
 7. Optional — for richer instructions than the connector alone gives
-   Claude, upload the `brain` skill zip too: build it from a clone with
-   `bash plugins/brain/scripts/zip-skill.sh` (or grab it from this repo's
-   releases), then go to **Settings → Customize → Skills → + → Create
-   skill → Upload a skill** and upload the file.
+   Claude, upload the `brain` skill zip too: download it from
+
+   ```
+   https://github.com/toppynl/brain-plugin/releases/latest/download/brain-skill.zip
+   ```
+
+   then go to **Settings → Customize → Skills → + → Create skill →
+   Upload a skill** and upload the file. No build step needed.
 8. Test it — send this in the conversation where you enabled Brain:
 
    ```
@@ -107,10 +111,16 @@ is unaffected and out of scope for this plugin.
 ## Skill-only zip (for the chat track)
 
 claude.ai/Desktop/Cowork skill uploads don't support Claude Code
-subagents or MCP model routing — only the skill itself. To build a
-skill-only zip of `brain` (no `vault-reader`/`vault-writer` routing,
-since chat always uses one model), run the zip script directly (no
-package manager or workspace required):
+subagents or MCP model routing — only the skill itself. The download
+link in Track 1 above (a stable URL pointing at the latest GitHub
+release) always has this skill-only zip of `brain` (no
+`vault-reader`/`vault-writer` routing, since chat always uses one
+model) — no build step required.
+
+Dev note: that release asset is built by `.github/workflows/release.yml`
+on every `v*` tag push, by running `plugins/brain/scripts/zip-skill.sh`.
+To build it locally instead, run the script directly (no package
+manager or workspace required):
 
 ```
 bash plugins/brain/scripts/zip-skill.sh
