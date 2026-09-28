@@ -1,15 +1,15 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
-  "name": "brain-plugin",
+  "name": "kennr-plugin",
   "owner": {
     "name": "toppynl"
   },
-  "description": "Plugins for the Brain shared knowledge base.",
+  "description": "Plugins for the Kennr shared knowledge base.",
   "plugins": [
     {
-      "name": "brain",
-      "source": "./plugins/brain",
-      "description": "Routes simple Brain vault lookups to a cheap haiku reader and disciplined vault writes to a sonnet writer that respects vault contracts and CAS.",
+      "name": "kennr",
+      "source": "./plugins/kennr",
+      "description": "Routes simple Kennr vault lookups to a cheap haiku reader and disciplined vault writes to a sonnet writer that respects vault contracts and CAS.",
       "category": "productivity",
       "tags": ["knowledge-base", "mcp", "vault"],
       "license": "MIT"

@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "brain": {
-      "type": "http",
-      "url": "https://brain.oftomorrow.eu/mcp"
-    }
-  }
-}

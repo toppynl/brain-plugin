@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "kennr": {
+      "type": "http",
+      "url": "https://kennr.oftomorrow.eu/mcp"
+    }
+  }
+}
