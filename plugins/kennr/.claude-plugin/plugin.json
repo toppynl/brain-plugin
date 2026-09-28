@@ -1,7 +1,7 @@
 {
   "name": "kennr",
   "displayName": "Kennr",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Vault-aware subagents and skill for the Kennr shared knowledge base MCP server.",
   "license": "MIT",
   "author": {

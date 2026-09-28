@@ -1,6 +1,6 @@
 ---
 name: kennr
-description: Routing rule for working with Kennr, a specific hosted shared-vault product (MCP server at kennr.oftomorrow.eu) — when to hand a task to the cheap vault-reader subagent versus the vault-writer subagent, and how to write to a Kennr vault politely. Use ONLY when the user explicitly names "Kennr", names a Kennr vault, or the task involves the kennr MCP tools. Do NOT use for local files, local wikis, personal knowledge bases, Obsidian/Notion-style vaults, or any other note-taking or knowledge-base system that isn't Kennr — those are separate and this skill has no relationship to them.
+description: Routing rule for working with Kennr, a specific hosted shared-vault product (MCP server at kennr.oftomorrow.eu) — when to hand a task to the cheap vault-reader subagent versus the vault-writer subagent, and how to write to a Kennr vault politely. Use ONLY when the user explicitly names "Kennr", names a Kennr vault, names the knowledge-base alias their organisation has configured for Kennr (as listed in the Kennr MCP server's own instructions), or the task involves the kennr MCP tools. Do NOT use for local files, local wikis, personal knowledge bases, Obsidian/Notion-style vaults, or any other note-taking or knowledge-base system that isn't Kennr — those are separate and this skill has no relationship to them.
 ---
 
 # Kennr vault routing
