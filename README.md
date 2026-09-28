@@ -130,5 +130,4 @@ Writes `plugins/brain/dist/brain-skill.zip`.
 
 ## License
 
-Not yet chosen by the owner — no license file is included here. Treat
-this repo as "all rights reserved" until one is added.
+MIT — see [LICENSE](./LICENSE).

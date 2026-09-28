@@ -11,7 +11,8 @@
       "source": "./plugins/brain",
       "description": "Routes simple Brain vault lookups to a cheap haiku reader and disciplined vault writes to a sonnet writer that respects vault contracts and CAS.",
       "category": "productivity",
-      "tags": ["knowledge-base", "mcp", "vault"]
+      "tags": ["knowledge-base", "mcp", "vault"],
+      "license": "MIT"
     }
   ]
 }
