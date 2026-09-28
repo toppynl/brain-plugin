@@ -106,10 +106,12 @@ Using Kennr, list my vaults
   from Customize → Connectors → Kennr → Connect.
 
 This plugin (and its skill/subagents) only activate when you explicitly
-name Kennr, a Kennr vault, or otherwise ask for something that needs the
-`kennr` MCP tools. It does not claim generic "knowledge base" or "notes"
-requests — a local wiki, Obsidian vault, or any other note-taking system
-is unaffected and out of scope for this plugin.
+name Kennr, a Kennr vault, the knowledge-base alias your organisation has
+configured for Kennr (as listed in the Kennr MCP server's own
+instructions), or otherwise ask for something that needs the `kennr` MCP
+tools. It does not claim generic "knowledge base" or "notes" requests —
+a local wiki, Obsidian vault, or any other note-taking system is
+unaffected and out of scope for this plugin.
 
 ## Skill-only zip (for the chat track)
 
