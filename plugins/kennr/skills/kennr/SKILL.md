@@ -1,11 +1,11 @@
 ---
-name: brain
-description: Routing rule for working with Brain, a specific hosted shared-vault product (MCP server at brain.oftomorrow.eu) — when to hand a task to the cheap vault-reader subagent versus the vault-writer subagent, and how to write to a Brain vault politely. Use ONLY when the user explicitly names "Brain", names a Brain vault, or the task involves the brain MCP tools. Do NOT use for local files, local wikis, personal knowledge bases, Obsidian/Notion-style vaults, or any other note-taking or knowledge-base system that isn't Brain — those are separate and this skill has no relationship to them.
+name: kennr
+description: Routing rule for working with Kennr, a specific hosted shared-vault product (MCP server at kennr.oftomorrow.eu) — when to hand a task to the cheap vault-reader subagent versus the vault-writer subagent, and how to write to a Kennr vault politely. Use ONLY when the user explicitly names "Kennr", names a Kennr vault, or the task involves the kennr MCP tools. Do NOT use for local files, local wikis, personal knowledge bases, Obsidian/Notion-style vaults, or any other note-taking or knowledge-base system that isn't Kennr — those are separate and this skill has no relationship to them.
 ---
 
-# Brain vault routing
+# Kennr vault routing
 
-Brain is a shared markdown knowledge base. Humans read/edit it in a web
+Kennr is a shared markdown knowledge base. Humans read/edit it in a web
 UI; agents read/write it over MCP (19 tools at `<origin>/mcp`, OAuth).
 The point of this skill is cost and correctness: don't burn a big model
 on a simple lookup, and don't let an agent write to a vault without

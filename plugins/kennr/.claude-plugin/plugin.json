@@ -1,8 +1,8 @@
 {
-  "name": "brain",
-  "displayName": "Brain",
+  "name": "kennr",
+  "displayName": "Kennr",
   "version": "0.1.0",
-  "description": "Vault-aware subagents and skill for the Brain shared knowledge base MCP server.",
+  "description": "Vault-aware subagents and skill for the Kennr shared knowledge base MCP server.",
   "license": "MIT",
   "author": {
     "name": "toppynl"
