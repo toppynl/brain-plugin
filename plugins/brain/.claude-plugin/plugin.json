@@ -1,0 +1,11 @@
+{
+  "name": "brain",
+  "displayName": "Brain",
+  "version": "0.1.0",
+  "description": "Vault-aware subagents and skill for the Brain shared knowledge base MCP server.",
+  "author": {
+    "name": "toppynl"
+  },
+  "keywords": ["knowledge-base", "mcp", "vault"],
+  "agents": ["./agents/vault-reader.md", "./agents/vault-writer.md"]
+}
